@@ -12,16 +12,16 @@
         <p>Subjects</p>
 
         <div class="tabs">
-            <button class="tablink active" onclick="openTab(event, 'project1')">Algebra</button>
+            <!-- <button class="tablink active" onclick="openTab(event, 'project1')">Algebra</button> -->
             <button class="tablink" onclick="openTab(event, 'project2')">Calculus</button>
             <button class="tablink" onclick="openTab(event, 'project3')">Probability</button>
-            <button class="tablink" onclick="openTab(event, 'project4')">Linear Algebra</button>
+            <!-- <button class="tablink" onclick="openTab(event, 'project4')">Linear Algebra</button> -->
             <button class="tablink" onclick="openTab(event, 'project5')">Differential Equations</button>
         </div>
     </header>
 
     <section id="projects">
-        <div id="project1" class="tabcontent">
+        <!-- <div id="project1" class="tabcontent">
             <h3>Algebra</h3>
             <p>Questions from: "Algebra and Trigonometry" by James Stewart.</p>
 
@@ -31,16 +31,18 @@
             <li>Main Workbook. <a href="docs/Part 1.pdf">Part 1</a>. <a href="docs/Part 2.pdf">Part 2</a>.
                 <a href="docs/Part 3.pdf">Part 3</a>. <a href="docs/Part 4.pdf">Part 4</a>. </li>
             <li><a href="docs/Trigonometry Working.pdf">Trigonometry</a></li>
-        </div>
+        </div> -->
 
         <div id="project2" class="tabcontent">
             <h3>Calculus</h3>
-            <p>MIT’s OpenCourseWare courses on 18.01SC Single Variable Calculus and 18.02SC Multivariable Calculus.</p>
-            <p>For the former, I have completed Part A of the 1st out of 5 sections which covered the basic rules of
-                differentiation and Part A of the 1st out of 4 sections for the latter which covered
-                Vectors, Determinants and Planes. Completion included worked examples for each session,
+            <p>MIT’s OpenCourseWare course on <a href="https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/">18.01SC Single Variable Calculus</a>.</p>
+            <p>I had done some questions on and off before around the end of 2024. However, I had only started to seriously
+                work through the course after graduation, which was around late July 2025. Hence, you could see jumps in
+                between dates on some of the worksheets, for example: certain problems in Section 1 were completed during Dec 2024/Jan 2025
+                but I had completed the rest during July or August of 2025. Completion included worked examples for each session,
                 recitation questions, watching lectures, and the problem set for each part.</p>
-            <p>18.01SC Single Variable Calculus</p>
+            <br>
+            <p>Section 1: Differentiation</p>
             <a>Part A</a>
             <li>Session 1: <a href="docs/18.01 Single Variable Calculus/session1 problem.pdf">Exercise</a>.
                 <a href="docs/18.01 Single Variable Calculus/session1 Recitation 1.pdf">Recitation 1</a>.
@@ -82,10 +84,11 @@
             <li>Session 20: <a href="docs/18.01 Single Variable Calculus/session20 Recitation.pdf">Recitation</a>.
                 <a href="docs/18.01 Single Variable Calculus/session20 problem.pdf">Exercise</a>. </li>
             <p><a href="docs/18.01 Single Variable Calculus/Problem Set 2.pdf">Problem Set 2</a></p>
-            <li>Exam 1: <a href="docs/18.01 Single Variable Calculus/exam1 29.7.25.pdf">Exam 1 first attempt</a>.</li>
+            <li>Exam 1: <a href="docs/18.01 Single Variable Calculus/exam1 29.7.25.pdf">Exam 1</a>.</li>
 
             <p>Section 2: Applications of Differentiation</p>
             
+            <a>Part A</a>
             <li>Session 23: <a href="docs/18.01 Single Variable Calculus/session23 problem.pdf">Exercise</a>.</li>
             <li>Session 24: <a href="docs/18.01 Single Variable Calculus/session24 problem.pdf">Exercise</a>.
                 <a href="docs/18.01 Single Variable Calculus/session24 Recitation.pdf">Recitation</a>. </li>
@@ -259,30 +262,34 @@
                 <a href="docs/18.01 Single Variable Calculus/session101 problem.pdf">Exercise</a>. </li>
 
 
-
-            <p>18.02SC Multivariable Calculus</p>
-            <li>Session 1: <a href="docs/18.02 Multivariable Calculus/session1 problems.pdf">Problems</a>.</li>
-            <li>Session 4: <a href="docs/18.02 Multivariable Calculus/session4 problems.pdf">Problems</a>.</li>
-            <li>Session 5: <a href="docs/18.02 Multivariable Calculus/session5 problems.pdf">Problems</a>.</li>
-
-
-
         </div>
 
         <div id="project3" class="tabcontent">
             <h3>Probability</h3>
-            <p>MITx 6.431x course on Probability.</p>
+            <p><a href="https://www.edx.org/learn/probability/massachusetts-institute-of-technology-probability-the-science-of-uncertainty-and-data">
+                MITx 6.431x</a> course on Probability.</p>
             <p>I obtained a mark of 78% for the 16 weeks course from 3/9/2024 to 23/12/2024 alongside
                 my degree studies. The course covered 26 lectures, 10 problem sets and 3 exams.
                 <a href="docs/MITx 6.431x Certificate _ edX.pdf">Certificate</a>.</p>
+            <p>Units</p>
+            <li>Unit 1: Probability models and axioms</li>
+            <li>Unit 2: Conditioning and independence</li>
+            <li>Unit 3: Counting</li>
+            <li>Unit 4: Discrete random variables</li>
+            <li>Unit 5: Continuous random variables</li>
+            <li>Unit 6: Further topics on random variables</li>
+            <li>Unit 7: Bayesian inference</li>
+            <li>Unit 8: Limit theorems and classical statistics</li>
+            <li>Unit 9: Bernoulli and Poisson processes</li>
+            <li>Unit 10: Markov chains</li>
         </div>
 
-        <div id="project4" class="tabcontent">
+        <!-- <div id="project4" class="tabcontent">
             <h3>Linear Algebra</h3>
             <p>MIT’s 18.06SC Linear Algebra course.</p>
             <p>I have finished Unit I out of 3 units which covered the matrix equation Ax=b and the Four
                 Subspaces.</p>
-        </div>
+        </div> -->
 
         <div id="project5" class="tabcontent">
             <h3>Differential Equations</h3>
